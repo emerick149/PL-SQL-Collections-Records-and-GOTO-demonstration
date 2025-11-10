@@ -1,0 +1,34 @@
+--- Associative Array: City populations ---
+Kigali: 1500000
+City: Kigali => 1500000
+City: Musanze => 450000
+City: Butare => 96000
+--- VARRAY: Employee monthly salaries (max 5) ---
+Salary 1: 5000
+Salary 2: 6000
+Salary 3: 7000
+Salary 4: 8000
+Salary 5: 9000
+Reversed order:
+Salary 5: 9000
+Salary 4: 8000
+Salary 3: 7000
+Salary 2: 6000
+Salary 1: 5000
+--- Nested Table: Bonuses ---
+Bonus at 1: 500
+Bonus at 2: <deleted>
+Bonus at 3: 1500
+Total of existing bonuses: 2000
+--- Records examples ---
+No employee with ID=100 found for table-based record demo.
+User-defined record: 200, Demo Employee, salaries: 4100, 4200, 4300
+Cursor row => ID:100, Name:Alice
+Cursor row => ID:101, Name:Bob
+Cursor row => ID:102, Name:Carol
+--- GOTO example: salary validation ---
+Invalid salary at position 2: 0
+Error label reached: one or more salaries invalid. Aborting sum.
+--- Collection of Records (Associative by integer) ---
+Emp[1] ID=100, Name=Alice Smith, Salaries=5000,6000,7000
+Emp[2] ID=101, Name=Bob Jones, Salaries=6000,6500,7000
